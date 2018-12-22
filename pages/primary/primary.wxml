@@ -1,0 +1,20 @@
+<view class='header-container'>
+    <image class='header-bg'  src='../image/head.png'></image>
+  </view>
+
+  <view class='tb-container'>
+   <view class='tb' bindtap='bindskiptoershou'>
+   <image class='tb-bg' src='../image/tb1.png'></image>
+   </view>
+   <view class='tb' bindtap='bindskiptoswzl'>
+   <image class='tb-bg' src='../image/tb2.png'></image>
+   </view>
+   <view class='tb' bindtap='bindskipto'>
+   <image class='tb-bg' src='../image/tb3.png'></image>
+   </view>
+<view class='tb' bindtap='bindskipto1'>
+   <image class='tb-bg' src='../image/tb4.png'></image>
+   </view>
+  </view>
+
+  

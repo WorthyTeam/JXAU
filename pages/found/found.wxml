@@ -1,0 +1,31 @@
+<import src="../../template2/template2.wxml"/>
+<template is="tabBar2" data="{{tabBar:bindData.tabBar}}"/>
+
+<view class='tiao'> 
+<view class='sousuo'>
+ <image class='sousuo-tb' src='../image/sousuo.png'></image>
+ <input class='sousuokuang' placeholder="输入商品名称"/>
+</view>                                                               
+</view>
+
+
+<view class='body'>
+<!--此为for循环，我没写因为不知道你那个命名是什么-->
+<view class='goods'>
+     <view class='left'>
+     <view class='name'>
+     手套
+     </view>
+     <view class='time'>
+     上周一上午
+     </view>
+     <view class='decrible'>
+     手套丢了，很急，如图，很不错
+     </view>
+     </view> 
+     <view class='right'>
+     <!--商品图片-->
+     <image class='goods-image' src='../image/shangping.jpg'></image>
+     </view>
+</view>
+</view>

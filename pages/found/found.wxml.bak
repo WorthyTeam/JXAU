@@ -1,0 +1,28 @@
+<view class='tiao'> 
+<view class='sousuo'>
+ <image class='sousuo-tb' src='../image/sousuo.png'></image>
+ <input class='sousuokuang' placeholder="输入商品名称"/>
+</view>                                                               
+</view>
+
+
+<view class='body'>
+<!--此为for循环，我没写因为不知道你那个命名是什么-->
+<view class='goods'>
+     <view class='left'>
+     <view class='name'>
+     商品名称
+     </view>
+     <view class='time'>
+     时间
+     </view>
+     <view class='decrible'>
+     商品描述
+     </view>
+     </view> 
+     <view class='right'>
+     <!--商品图片-->
+     <image class='goods-image' src='../image/shangping.jpg'></image>
+     </view>
+</view>
+</view>

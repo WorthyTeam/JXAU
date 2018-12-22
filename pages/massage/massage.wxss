@@ -1,0 +1,5 @@
+.xiaoxi{
+  width: 100%;
+  height: 120rpx;
+  border-bottom: 1rpx solid #8a8a8a
+}

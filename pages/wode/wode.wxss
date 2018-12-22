@@ -1,0 +1,41 @@
+.daohang{
+  display: flex;
+  height: 90rpx;
+  width: 100%;
+  border-top: 1rpx solid rgba(194, 191, 187, 0.904);
+  font-size:38rpx;
+  color: rgb(27, 23, 23)
+}
+.daohang-tb{
+  height: 50rpx;
+  width: 50rpx;
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+}
+.tb-text{
+ padding-top: 20rpx;
+ margin-left: 30rpx
+}
+.jiantou{
+    height: 40rpx;
+  width: 40rpx;
+   margin-top: 20rpx;
+   margin-left:425rpx
+}
+.xinxi{
+  background-color: #ff5500;
+  height: 100rpx;
+  display: flex;
+  padding-left: 20rpx
+}
+.xinxi-image{
+
+  height: 85rpx;
+  width:  85rpx;
+  border-radius: 100rpx
+}
+.xinxi-text{
+  font-size: 40rpx;
+ padding-top: 20rpx;
+  margin-left: 20rpx;
+}

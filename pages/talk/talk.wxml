@@ -1,0 +1,16 @@
+<import src="../../template3/template3.wxml"/>
+<template is="tabBar3" data="{{tabBar:bindData.tabBar}}"/>
+
+<view class='body'>
+<!--此为for循环，我没写因为不知道你那个命名是什么-->
+<view class='question' bindtap='intoquestion'>
+     <view class='title' >
+     <text class='title-tetx'>{{question}}</text>
+     <image class='title-image' src='{{pic}}'></image>
+     <text class='title-time'>{{time}}</text>
+     </view>
+     <view class='content'>
+        <text class='content-text'>{{content}}</text>
+     </view>
+</view>
+</view>

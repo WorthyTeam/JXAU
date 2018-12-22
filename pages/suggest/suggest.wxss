@@ -1,0 +1,14 @@
+.suggest{
+  margin-top: 40rpx;
+  margin-left: 15rpx;
+  border: 10rpx solid #fa8e71;
+  border-radius: 15rpx
+}
+button{
+  margin-top: 10rpx;
+  margin-left: 550rpx;
+  width: 180rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  background-color: #fa8e71
+}

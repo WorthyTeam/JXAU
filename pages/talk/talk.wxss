@@ -1,0 +1,116 @@
+.tiao{
+  background-color: #ecd034;
+  height: 150rpx;
+  width: 100%;
+  position: relative
+}
+.sousuo{
+  background-color: white;
+  height: 80rpx;
+  width: 600rpx;
+  position: relative;
+  left: 80rpx;
+  top: 110rpx;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 10rpx  #888888;
+  display: flex
+}
+.sousuo-tb{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+}
+.sousuokuang{
+  width: 500rpx;
+  height: 70rpx;
+  margin-top: 6rpx;
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}
+.body{
+  margin-top: 50rpx;
+}
+.question{
+ background-color: white;
+  width: 600rpx;
+  height: 130rpx;
+  border: 5rpx solid #ecd034;
+  border-radius: 20rpx;
+margin-left: 80rpx;
+}
+.left{
+width: 400rpx;
+}
+.right{
+width: 200rpx;
+}
+.goods-image{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+}
+.name{
+  font-size: 38rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+.time{
+  font-size: 25rpx;
+  color: #888888;
+  margin-left: 30rpx;
+  margin-top: 5rpx
+}
+.decrible{
+  font-size: 30rpx;
+  color: #888888;
+  margin-left: 30rpx;
+  margin-top: 15rpx
+}
+.title{
+  /* padding-top: 20rpx */
+  display: flex
+}
+.title-tetx{
+  font-size: 36rpx;
+  padding-left: 40rpx;
+}
+.title-image{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 100rpx;
+  margin-left:  200rpx;
+  margin-top: 5rpx
+}
+.title-time{
+  font-size: 30rpx;
+  color: #a3a3a3;
+  margin-left: 10rpx;
+  margin-top: 8rpx
+}
+.content{
+  
+}
+.content-text{
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+font-size: 30rpx;
+
+/* word-break: break-all;允许在单词内换行 */
+text-align: left;
+color: #a3a3a3;
+/* line-height: 45rpx; */
+
+/* text-overflow: -o-ellipsis-lastline;css3中webkit内核提供的一个方法类似ellipsis */
+
+overflow: hidden;
+
+text-overflow: ellipsis;
+
+display: -webkit-box;
+
+-webkit-line-clamp: 1;/*此处为1行,如果是两行就改成2*/
+
+-webkit-box-orient: vertical;
+}

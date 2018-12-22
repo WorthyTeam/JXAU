@@ -1,0 +1,60 @@
+page{
+  background-image: url('http://worthytom.oss-cn-beijing.aliyuncs.com/helpme/app/zhuce.png');
+ background-size: cover
+}
+.erweima-tap{
+  margin-left: 300rpx;
+  margin-top: 25rpx; 
+  display: flex 
+
+}
+.ewm{
+  width: 140rpx;
+  height: 140rpx;
+}
+.wenzi{
+  display: flex;
+  margin-left: 300rpx;
+  width: 200rpx;
+}
+.wenhao{
+   width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+  margin-top: 17rpx
+}
+.wenzi-swich{
+  font-size: 30rpx;
+  color: #8a8a8a;
+
+  margin-top: 15rpx;
+}
+.shuru{
+  width: 400rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+margin-left: 200rpx;
+margin-top: 44rpx;
+}
+.tijiao{
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 35rpx;
+  margin-top: 35rpx;
+  color: white;
+  background-color: black
+}
+.shouquan{
+height: 80rpx;
+width: 440rpx;
+border-radius: 30rpx;
+text-align: center;
+font-size: 35rpx;
+background-color: #f3f3f3c2
+}
+.head{
+  height: 460rpx;
+}
+.head-button{
+  padding-top: 390rpx
+}

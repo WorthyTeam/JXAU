@@ -1,0 +1,44 @@
+<import src="../../template2/template2.wxml"/>
+<template is="tabBar2" data="{{tabBar:bindData.tabBar}}"/>
+
+<form>
+<view class='name'>
+<input class='input-name' placeholder='请输入发布商品的名称'/>
+</view>
+<view class='describle'>
+ <textarea class='describle-text' placeholder='请简要描述一下物品的细节，新旧程度，型号尺码等'/>
+<view class='tupian' >
+ <image class='tianjia' src='{{pic}}' bindtap='chooseimage' mode='aspectFit'></image>
+</view>
+</view>
+<view class='jiange'> 
+</view>
+
+<view class='fenlei'>
+<text class='fenlei-text'>分类</text>
+<picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<view class="weui-input">{{array[index]}}<image class='jiantou' src='../image/jiantou.png'></image></view>
+
+</picker>
+</view>
+<view class='jiange'> 
+</view>
+ <view class='xuanze'> 
+          <view class='beijin'>
+            <view class='{{shiwu}}' bindtap='changecolor1' >
+                 找失物
+            </view>
+            <view class='{{shizhu}}' bindtap='changecolor2'>
+               找失主
+            </view>
+          </view>
+             </view>
+<view class='jiange'> 
+</view>
+<view class='zhuyi'>
+注意：发布虚假信息将被封号
+</view>
+<button class='tijiao'>
+<text>发布</text>
+</button>
+</form>

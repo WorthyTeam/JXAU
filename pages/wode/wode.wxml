@@ -1,0 +1,24 @@
+<view class='xinxi'>
+<!--用户头像-->
+<image class='xinxi-image'
+src='{{userInfo.avatarUrl}}'>
+   
+</image>
+<text class='xinxi-text'>{{userInfo.nickName}}</text>
+</view>
+
+<view class='daohang' bindtap='changetomassage2'>
+   <image class='daohang-tb' src='../image/xinxi.png'></image>
+  <view class='tb-text'>  我的消息</view>
+   <image class='jiantou' src='../image/jiantou.png'></image>
+</view>
+<view class='daohang' bindtap='changetofubu2'>
+   <image class='daohang-tb' src='../image/fabu2.png'></image>
+  <view class='tb-text'>  我的发布</view>
+   <image class='jiantou' src='../image/jiantou.png'></image>
+</view>
+<view class='daohang'bindtap='changetodingdan'>
+   <image class='daohang-tb' src='../image/dingdan2.png'></image>
+  <view class='tb-text'>  我的订单</view>
+   <image class='jiantou' src='../image/jiantou.png'></image>
+</view>

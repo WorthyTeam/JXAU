@@ -1,0 +1,26 @@
+<view class='head'>
+<view class='head-button'>
+<button class='shouquan'  wx:if="{{!hasUserInfo && canIUse}}"  open-type="getUserInfo" bindgetuserinfo="getUserInfo" >授权</button> 
+</view>
+   
+</view>
+ 
+<view class='erweima-tap' >
+ <image class='ewm' src='{{pic}}' bindtap='chooseimage'>
+</image>
+</view>
+<view class='wenzi'  bindtap='switchtext'>
+     <text class='wenzi-swich'>{{wenzi}}
+     </text>
+    <image class='wenhao' src='{{wenhao}}'>
+    </image> 
+</view>
+  <form bindsubmit="formSubmit">
+        <input class='shuru'    type='number' name='tel'/>
+        
+
+        
+            <button  class='tijiao'  form-type='submit' >注册</button>
+        
+  </form>
+

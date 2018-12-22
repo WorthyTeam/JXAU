@@ -1,0 +1,28 @@
+<import src="../../template3/template3.wxml"/>
+<template is="tabBar3" data="{{tabBar:bindData.tabBar}}"/>
+
+<form>
+<view class='xuanze'> 
+          <view class='beijin'>
+            <view class='{{shiwu}}' bindtap='changecolor1' >
+                 咨询
+            </view>
+            <view class='{{shizhu}}' bindtap='changecolor2'>
+               吐槽
+            </view>
+          </view>
+             </view>
+
+
+<view class='title'>
+<input class='title-input' placeholder='请输入标题'/>
+</view>
+<view class='content'>
+    <textarea class='content-text' placeholder='请输入内容'>
+    
+    </textarea>
+</view>
+<button class='fabiao'>
+发表
+</button>
+</form>

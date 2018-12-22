@@ -1,0 +1,32 @@
+<import src="../../template1/template1.wxml"/>
+<template is="tabBar1" data="{{tabBar:bindData.tabBar}}"/>
+
+<view class='tiao'> 
+<view class='sousuo'>
+ <image class='sousuo-tb' src='../image/sousuo.png'></image>
+ <input class='sousuokuang' placeholder="输入商品名称"/>
+</view>                                                               
+</view>
+
+
+<view class='body' wx:for="{{shgoods}}"  wx:for-index="i"   wx:for-item="shgood"> 
+ <navigator url='/pages/goods/goods?id={{shgood.id}}&&index={{i}}'>
+<view class='goods'>
+     <view class='left'>
+     <view class='name'>
+     {{shgood.name}}
+     </view>
+     <view class='time'>
+     {{shgood.time}}
+     </view>
+     <view class='decrible'>
+    {{shgood.description}}
+     </view>
+     </view> 
+     <view class='right'>
+     <!--商品图片-->
+     <image class='goods-image' src='{{shgood.sHUrl}}'></image>
+     </view>
+</view>
+  </navigator>
+</view>

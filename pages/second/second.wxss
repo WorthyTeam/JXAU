@@ -1,0 +1,70 @@
+.tiao{
+  background-color: #ff5500;
+  height: 150rpx;
+  width: 100%;
+  position: relative
+}
+.sousuo{
+  background-color: white;
+  height: 80rpx;
+  width: 600rpx;
+  position: relative;
+  left: 80rpx;
+  top: 110rpx;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 10rpx  #888888;
+  display: flex
+}
+.sousuo-tb{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+}
+.sousuokuang{
+  width: 500rpx;
+  height: 70rpx;
+  margin-top: 6rpx;
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}
+.body{
+  margin-top: 50rpx;
+}
+.goods{
+ background-color: white;
+  width: 600rpx;
+  height: 230rpx;
+  box-shadow: 0rpx 4rpx  #888888;
+margin-left: 80rpx;
+display: flex
+}
+.left{
+width: 400rpx;
+}
+.right{
+width: 200rpx;
+}
+.goods-image{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+}
+.name{
+  font-size: 38rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+.time{
+  font-size: 25rpx;
+  color: #888888;
+  margin-left: 30rpx;
+  margin-top: 5rpx
+}
+.decrible{
+  font-size: 30rpx;
+  color: #888888;
+  margin-left: 30rpx;
+  margin-top: 15rpx
+}

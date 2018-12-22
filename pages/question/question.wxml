@@ -1,0 +1,53 @@
+<view class='question'>
+<view class='titleuser'>
+<image class='title-image' src='{{pic}}'></image>
+<view class='title-text'>
+<text>{{time}}</text>
+</view>
+
+</view>
+<view class='title'>
+<text  >{{title}}
+</text>
+</view>
+<view class='content'><textarea class='content-text'>{{content}}</textarea></view>
+
+</view>
+
+<view class='kongge'>
+</view>
+
+<form>
+<view class='liuyankuang'>
+<!--用户头像-->
+         <image class='sale-image' src='../image/shangping.jpg'>
+                </image>
+<!--留言-->
+          
+              <view class='shuru'>
+                  <input class='shurukuang' placeholder='回复卖家：'/>
+            </view>
+             <view class='send'>
+发送
+               </view>
+
+
+</view>
+
+</form>
+
+
+<!--for循环-->
+ <view>
+  <view class='buykuang'>
+       <image class='buy-image' src='../image/shangping.jpg'>
+                </image>
+                <view>
+                <view class='buy-name'><text>吴兴涛</text><text class='buy-time'>2018-10-11</text>                                  </view>
+                <view class='buy-neilong'>
+                内容内容内容内容内容内容内容内容内容内容
+                </view>
+    </view>
+                
+                </view>
+ </view>

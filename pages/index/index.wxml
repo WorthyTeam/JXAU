@@ -1,0 +1,32 @@
+<view class='head-contain'>
+   <image class='wodebg' src='../image/wodehead.png'></image>
+
+   <view class='head'>
+         <image class='head-image' src='{{userInfo.avatarUrl}}'>
+         
+         </image>
+        <view class='head-text1'>
+       {{userInfo.nickName}}
+        </view>
+       
+   </view>
+</view>
+
+<view class='body'>
+
+</view>
+<view class='daohang' bindtap='changetohelp'>
+   <image class='daohang-tb' src='../image/shiyongbangzhu.png'></image>
+  <view class='tb-text'>  使用帮助</view>
+   <image class='jiantou' src='../image/jiantou.png'></image>
+</view>
+<view class='daohang' bindtap='changetohistory'>
+   <image class='daohang-tb' src='../image/lishi.png'></image>
+  <view class='tb-text'>  互助历史</view>
+   <image class='jiantou' src='../image/jiantou.png'></image>
+</view>
+<view class='daohang' bindtap='changetosuggest'>
+   <image class='daohang-tb' src='../image/yijian.png'></image>
+  <view class='tb-text'>  意见建议</view>
+   <image class='jiantou' src='../image/jiantou.png'></image>
+</view>

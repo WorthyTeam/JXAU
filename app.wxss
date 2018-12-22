@@ -1,0 +1,13 @@
+/**app.wxss**/
+@import "/template1/template1.wxss";
+@import "/template2/template2.wxss";
+@import "/template3/template3.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 

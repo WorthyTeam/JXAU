@@ -1,0 +1,112 @@
+swiper{
+  height: 500rpx
+}
+.price{
+  width: 100%;
+  height: 40rpx;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+  color: red
+}
+.name{
+  width: 100%;
+  height: 60rpx;
+  font-size: 35rpx;
+  padding-left: 30rpx;
+  padding-top: 30rpx;
+}
+.describle{
+  width:700rpx;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  padding-top: 20rpx;
+  color: #8a8a8a
+}
+.sale{
+  height: 60rpx;
+  width: 100%;
+  display: flex;
+}
+.sale-image{
+  border-radius: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.sale-name{
+  font-size: 35rpx;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+.sale-time{
+  color: #8a8a8a;
+  font-size: 25rpx;
+  margin-top: 47rpx;
+  margin-left: 20rpx;
+}
+.kong{
+  width: 100%;
+  height: 20rpx;
+  background-color: #f3f3f3;
+  margin-top: 60rpx;
+}
+.liuyan{
+  height: 70rpx;
+  font-size: 38rpx;
+  padding-left: 20rpx;
+  padding-top: 15rpx;
+  border-bottom: 1rpx solid #f3f3f3
+}
+.liuyankuang{
+  display: flex
+}
+.shuru{
+  background-color: #f3f3f3;
+  width: 450rpx;
+height: 80rpx;
+margin-left: 10rpx;
+margin-top: 20rpx;
+padding-top: 25rpx;
+padding-left: 10rpx;
+border-bottom-left-radius: 10rpx;
+border-top-left-radius: 10rpx
+}
+.shurukuang{
+}
+.send{
+  background-color: #ff5500;
+  width: 120rpx;
+height: 80rpx;
+margin-top: 20rpx;
+padding-top: 25rpx;
+padding-left: 40rpx;
+border-bottom-right-radius: 10rpx;
+border-top-right-radius: 10rpx
+}
+.buykuang{
+  width: 100%;
+  border-bottom: 1rpx solid #f3f3f3;
+  display: flex;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  padding-bottom: 20rpx;
+}
+.buy-image{
+  border-radius: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.buy-name{
+  font-size: 35rpx;
+  color: #b8adad91;
+  padding-left: 20rpx
+}
+.buy-neilong{
+  font-size: 35rpx;
+  padding-left: 20rpx
+}
+.buy-time{
+  font-size: 25rpx;
+  margin-left: 350rpx
+}

@@ -1,0 +1,86 @@
+.xuanze{
+  height: 80rpx;
+  width: 100% 
+
+}
+.beijin{
+  margin-left: 80rpx;
+  margin-top: 15rpx;
+  height: 60rpx;
+  width: 80%;
+  background-color: #f3f3f3;
+border-radius: 30rpx;
+display: flex
+}
+.shiwu1{
+height: 60rpx;
+  width: 50%;
+  background-color: #ecd034;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  padding-top: 10rpx
+}
+.shiwu{
+height: 60rpx;
+  width: 50%;
+  background-color: #f3f3f3;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  padding-top: 10rpx
+}
+.shizhu1{
+height: 60rpx;
+  width: 50%;
+  background-color: #f3f3f3;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  padding-top: 10rpx
+}
+.shizhu2{
+height: 60rpx;
+  width: 50%;
+  background-color: #ecd034;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  padding-top: 10rpx
+}
+.title{
+  background-color: #f3f3f3;
+  height: 80rpx;
+  width: 95%;
+  border-radius: 20rpx;
+  border: 5rpx solid #ecd034;
+  margin-left: 18rpx;
+  margin-top: 10rpx
+}
+.title-input{
+  
+  margin-top: 12rpx;
+  width: 95%;
+  margin-left: 18rpx
+}
+.content{
+  background-color: #f3f3f3;
+  height: 380rpx;
+  width: 95%;
+  border-radius: 20rpx;
+  border: 5rpx solid #ecd034;
+  margin-left: 18rpx;
+  margin-top: 20rpx
+}
+.content-text{
+  margin-top:10rpx;
+  margin-left: 5rpx
+}
+.fabiao{
+  text-align: center;
+  font-size: 30rpx;
+  background-color: #ecd034;
+  width: 70%;
+  height: 80rpx;
+  margin-top: 20rpx
+}

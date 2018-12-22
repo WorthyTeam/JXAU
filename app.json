@@ -1,0 +1,52 @@
+{
+  "pages":[
+      "pages/register/register",
+    "pages/index/index",
+    "pages/speak/speak",
+    "pages/shiwu/shiwu",
+    "pages/second/second",
+    "pages/tucao/tucao",
+    "pages/talk/talk",
+    "pages/consult/consult",
+    "pages/question/question",
+  "pages/auth/auth",
+     "pages/fabu/fabu",
+    "pages/primary/primary",
+    "pages/found2/found2",
+    "pages/goods/goods",
+    "pages/wode/wode",
+    "pages/fubu2/fubu2",
+    "pages/massage2/massage2",
+    "pages/dingdan/dingdan",
+    "pages/found/found",
+    "pages/massage/massage",
+    "pages/suggest/suggest",
+        "pages/help/help",
+    "pages/history/history"
+ 
+
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fa8e71",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/primary/primary",
+      "iconPath": "pages/image/shouye-sz.png",
+      "selectedIconPath": "pages/image/shouye.png"
+    },
+    {
+      "pagePath": "pages/massage/massage",
+      "iconPath": "pages/image/xiaoxi-sz.png",
+      "selectedIconPath": "pages/image/xiaoxi.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/image/wode-sz.png",
+      "selectedIconPath": "pages/image/wode.png"
+    }]
+  }
+}

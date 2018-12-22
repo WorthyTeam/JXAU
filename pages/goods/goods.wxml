@@ -1,0 +1,75 @@
+
+
+ 
+   <swiper indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{shgood.sHUrl}}" circular="true">  
+         <block wx:for="{{imgUrls}}">  
+           <swiper-item>  
+             
+               <image src="{{shgood.sHUrl}}" class="slide-image" mode='aspectFit' width="355" height="150"/>  
+              
+           </swiper-item>  
+         </block>  
+ </swiper> 
+
+ <view class='price'>
+  ￥{{price}}
+ </view>
+ <view class='name'>
+    {{userInfo.nickName}}
+ </view>
+
+ <view class='describle'>
+ {{shgood.description}}
+ </view>
+<view class='sale'>
+<!--卖家头像-->
+<image class='sale-image' src='{{userInfo.avatarUrl}}'></image>
+<!--卖家昵称-->
+<view class='sale-name'> {{userInfo.nickName}}</view>
+<view class='sale-time'>{{shgood.time}}</view>
+</view>
+<view class='kong'>
+</view>
+<view>
+<view class='liuyan'>
+留言({{number}})
+</view>
+
+
+
+<form >
+<view class='liuyankuang'>
+<!--用户头像-->
+         <image class='sale-image' src='{{userInfo.avatarUrl}}'>
+                </image>
+<!--留言-->
+          
+              <view class='shuru'>
+                  <input class='shurukuang' placeholder='回复卖家：'/>
+            </view>
+             <view class='send' >
+发送
+               </view>
+
+
+</view>
+
+</form>
+
+
+<block wx:for="{{shgood.remarkSet}}">
+    <view class='buykuang'>
+       <image class='buy-image' src='{{userInfo.avatarUrl}}'>
+                </image>
+                <view>
+                <view class='buy-name'><text>  {{userInfo.nickName}}</text><text class='buy-time'>{{item.time}}</text>                                  </view>
+                <view class='buy-neilong'>
+                {{item.content}}
+                </view>
+    </view>
+                
+                </view>
+                
+ </block> 
+</view>
